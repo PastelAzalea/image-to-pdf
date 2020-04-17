@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>template</title>
+    <meta charset="utf-8" />
+
+    <style>
+      .wrapper {
+        page-break-before: always;
+        max-width: 100vw
+        max-height: 100vh;
+      }
+
+      img {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    {{#data}}
+      <div class="wrapper">
+        <img alt="not able to render image" src="{{src}}" />
+      </div>
+    {{/data}}
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "image-to-pdf",
+  "version": "1.0.0",
+  "description": "command line tool able to convert images into PDF files using google puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "*",
+    "handlebars": "*"
+  },
+  "author": "E. Franz",
+  "license": "MIT"
+}
